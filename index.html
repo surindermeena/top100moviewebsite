@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./stylefile.css">
+    <link rel="stylesheet" href="./menu.css">
+
+</head>
+<body>
+
+    <div id="head">
+        <div id="placeForLogo">
+            PNG125
+        </div>
+        <div id="placeForSearch">
+            <input id="whatULike" type="search" placeholder="What do you want to watch ?">
+            <!-- <input id="whatULike" type="text" placeholder="What do you want to watch ?"> -->
+
+        </div> 
+        <div id="placeForSignUp">
+            SIGN UP
+        </div>
+        <div id="placeForSignIn">
+            SIGN IN
+        </div>
+    </div>
+    <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <div id="mainBody">  
+            <div id="leftSide"> 
+                <p class="asd1">Sort By </p>
+
+                <div id="sortOptions">
+                    <p id="sortByAsc">A-Z</p>
+                    <p id="sortByDes">Z-A</p>
+                    <p id="sortRank">Popularity</p>
+                    <p id="sortRele">Release Year</p>
+                </div>
+
+                <p class="asd1">Category</p>
+                <div>
+
+                    <input type="checkbox" id="allmo" name="genre0" value="allmo">          <label for="action">All</label><br>
+                    <input type="checkbox" id="action" name="genre1" value="action">        <label for="action">Action</label><br>
+                    <input type="checkbox" id="adventure" name="genre2" value="adventure">  <label for="adventure">Adventure</label> <br>
+                    <input type="checkbox" id="animation" name="genre3" value="animation">  <label for="animation">Animation</label> <br>
+                    <input type="checkbox" id="biography" name="genre4" value="biography">  <label for="biography">Biography</label> <br>
+                    <input type="checkbox" id="comedy" name="genre5" value="comedy">        <label for="comedy">Comedy</label>       <br>
+                    <input type="checkbox" id="crime" name="genre6" value="crime">          <label for="crime">Crime</label>         <br>
+                    <input type="checkbox" id="drama" name="genre7" value="drama">          <label for="drama">Drama</label>         <br>
+                    <input type="checkbox" id="filmnoir" name="genre8" value="filmnoir">    <label for="filmnoir">Film-Noir</label>  <br>
+                    <input type="checkbox" id="family" name="genre9" value="family">        <label for="family">Family</label>       <br>
+                    <input type="checkbox" id="fantasy" name="genre10" value="fantasy">     <label for="fantasy">Fantasy</label>     <br>
+                    <input type="checkbox" id="history" name="genre11" value="history">     <label for="history">History</label>     <br>
+                    <input type="checkbox" id="horror" name="genre12" value="horror">       <label for="horror">Horror</label>       <br>
+                    <input type="checkbox" id="music" name="genre13" value="music">         <label for="music">Music</label>         <br>
+                    <input type="checkbox" id="mystery" name="genre14" value="mystery">     <label for="mystery">Mystery</label>     <br>
+                    <input type="checkbox" id="romance" name="genre15" value="romance">     <label for="romance">Romance</label>     <br>
+                    <input type="checkbox" id="scifi" name="genre16" value="scifi">         <label for="scifi">Sci-Fi</label>        <br>
+                    <input type="checkbox" id="thriller" name="genre17" value="thriller">   <label for="thriller">Thriller</label>   <br>
+                    <input type="checkbox" id="war" name="genre18" value="war">             <label for="war">War</label>             <br>
+                    <input type="checkbox" id="western" name="genre19" value="western">     <label for="western">Western</label>     <br>
+
+                </div>
+            </div>
+            
+            <div id="rightSide">
+
+                <h3>Action </h3>     <div class="allActionMovie amit"></div>
+                <h3>Adventure </h3>  <div class="allAdventureMovie amit"></div>
+                <h3>Animation </h3><div class="allAnimationMovie amit"></div>
+                <h3>Biography </h3><div class="allBiographyMovie amit"></div>
+                <h3>Comedy </h3><div class="allComedyMovie amit"></div>
+                <h3>Crime </h3><div class="allCrimeMovie amit"></div>
+                <h3>Drama </h3><div class="allDramaMovie amit"></div>
+                <h3>Film-Noir </h3><div class="allFilmNoirMovie amit"></div>
+                <h3>Family </h3><div class="allFamilyMovie amit"></div>
+                <h3>Fantasy </h3><div class="allFantasyMovie amit"></div>
+                <h3>History </h3><div class="allHistoryMovie amit"></div>
+                <h3>Horror </h3><div class="allHorrorMovie amit"></div>
+                <h3>Music </h3><div class="allMusicMovie amit"></div>
+                <h3>Mystery </h3><div class="allMysteryMovie amit"></div>
+                <h3>Romance </h3><div class="allRomanceMovie amit"></div>
+                <h3>Sci-Fi </h3><div class="allSciFiMovie amit"></div>
+                <h3>Thriller </h3><div class="allThrillerMovie amit"></div>
+                <h3>War </h3><div class="allWarMovie amit"></div>
+                <h3>Western </h3><div class="allWesternMovie amit"></div>
+
+            </div>
+
+            <!-- <div class="mostRightSide">   
+                <div></div>        
+                <img id="aa1">
+                <h6 id="aa2">Movie:</h6>
+                <h6 id="aa3">Year:</h6>
+                <h6 id="aa4">Rating:</h6>
+                <p id="aa5">Description:</p>
+                <p><a id="aa6" href="">More Details</a></p>
+            </div> -->
+
+            </div>
+    </div>
+
+    <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+    
+    <div id="foot">
+        <div style="display: flex;">
+            <div style="color: white; width: 50%;">
+                <h2>Quick Links</h2>
+                <span class="spa">Reviews</span><br>
+                <span class="spa">Terms & Condition</span><br>
+                <span class="spa">Disclaimer</span><br>
+                <span class="spa">Site Map</span>
+            </div>
+
+            <div style="color: white; width: 50%;">
+                <h2>Office Location</h2>
+                <div style="display: flex;">
+                    <div id="locationImage">
+                        <i class='far fa-building' style='font-size:60px'></i>
+                    </div>
+                    <div style="padding-left: 18px;">
+                        <span class="spa">Jaipur</span><br>
+                        <span class="spa">3-H-283A, Indira Gandhi Nagar, Ghati Karolan</span><br>
+                        <span class="spa">Jaipur, Rajasthan 302017</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+            <div style="display: flex; margin-top: 20px;">
+            <div id="placeForSubs">
+                <h2 style="color: white; margin: 10px 0px;">Stay Conneted</h2>
+                <input id="emailAdd" type="text" placeholder="Enter Email Address">
+                <input id="subbtn" type="submit" value="Subscribe">
+            </div>
+            <div id="placeForIcons">
+                <i class="fa fa-facebook micn" style="font-size:24px"></i>
+                <i class='fab fa-twitter micn' style='font-size:24px'></i>
+                <i class='fab fa-linkedin-in micn' style='font-size:24px'></i>
+                <i class='fab fa-instagram micn' style='font-size:24px'></i>
+                <i class='fab fa-tumblr micn' style='font-size:24px'></i>
+                <i class='fab fa-github micn' style='font-size:24px'></i>
+                <i class='fab fa-reddit-alien micn' style='font-size:24px'></i>
+            </div>
+            </div>
+
+        <hr>
+
+        <div style="text-align: center; color: white; padding: 5px; margin-top: 20px;">&copy All Rights Reserved 2023-2024</div>
+        <div style="text-align: center; color: white; padding: 5px;">Designed by <span style="text-decoration: underline;">Surinder Meena</span> </div>
+    </div>
+    
+
+    <script src="./moveisite.js"></script>
+</body>
+</html>
