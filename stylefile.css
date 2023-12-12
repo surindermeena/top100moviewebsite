@@ -11,20 +11,18 @@ body{
 
 /* ========================================================== */
 
-
-
 .forPop:hover {
     background-color: white;
     color: black;
 }
 
 .forPop2:hover {
-    transform: scale(1.2,1.2);
+    transform: scale(1.1);
     background-color: rgba(0, 0, 0, 1);
     color: white;
     z-index: 1;
     box-shadow: 0px 0px 20px black;
-    outline: 9px solid red;
+    outline: 4px solid red;
 }
 
 .cccc1 {
@@ -32,13 +30,7 @@ body{
     text-decoration: underline;
 }
 
-
-
-
-
-
 /* ========================================================== */
-
 
 #placeForLogo {
     color: orange;
@@ -50,7 +42,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 8px black;
 }
 
 #placeForSearch{
@@ -73,6 +65,7 @@ body{
     text-shadow: 2px 2px 4px black;
 }
 
+
 #placeForSignUp {
     margin: 30px;
     font-size: 20px;
@@ -83,6 +76,11 @@ body{
     justify-content: center;
     align-items: center;
     text-shadow: 2px 2px 4px black;
+}
+
+#placeForSignIn:hover, #placeForSignUp:hover {
+    color: orange;
+    transform: scale(1.1);
 }
 
 #whatULike {
@@ -124,7 +122,7 @@ body{
 .asd1 {
     font-weight: bold; 
     text-transform: uppercase; 
-    background-color: rgb(90, 90, 90); 
+    background-color: rgb(40, 40, 40); 
     color: rgb(200, 200, 200); 
     padding: 5px;
 }
@@ -158,7 +156,8 @@ label {
     color: white;
     overflow-x: scroll ;
     overflow-y: hidden;
-    padding: 7px;
+    padding: 10px;
+    max-width: fit-content;
 }
 
 .grid-container {
@@ -177,26 +176,22 @@ label {
 
   }
 
-#sortByAsc:hover {
+#sortByAsc:hover, #sortByDes:hover, #sortRank:hover, #sortRele:hover {
     background-color: rgb(40, 40, 40);
     color: white;
+    transform: scale(1.1);
 }
 
-#sortByDes:hover {
+.fa-building:hover, .spa1:hover{
+    color: greenyellow;
+}
+
+
+label:hover {
     background-color: rgb(40, 40, 40);
     color: white;
+    width: 80%;
 }
-
-#sortRank:hover {
-    background-color: rgb(40, 40, 40);
-    color: white;
-}
-
-#sortRele:hover {
-    background-color: rgb(40, 40, 40);
-    color: white;
-}
-
 
 
 
@@ -217,17 +212,28 @@ label {
     height: 30px;
     padding-left: 20px;
     margin-bottom: 10px;
+    border: none;
+}
+
+#emailAdd:focus {
+    box-shadow: 0px 0px 20px white;
 }
 
 #subbtn{
-    font-size: 20px;
-    height: 34px ;
-    border: 1px solid white;
-    margin-left: 0px;
+    font-size: 18px;
+    height: 30px ;
+    margin-left: 10px;
     position: relative;
     right: 4px;
     top: 1px;
     margin-bottom: 10px;
+    background-color: orange;
+    border: none;
+}
+
+#subbtn:active{
+    transform: scale(0.9);
+
 }
 
 .micn {
@@ -239,8 +245,18 @@ label {
     justify-content: center;
     display: inline-flex;
     align-items: center;
-    color: white;
     margin-right: 15px;
+
+    color: white;
+    color: orange;
+    border-color: orange ;
+}
+
+.micn:hover{
+    background-color: white;
+    color: rgb(90, 90, 90);
+
+    background-color: orange;
 }
 
 #placeForSubs, #placeForIcons {
@@ -257,3 +273,24 @@ label {
     line-height: 8px;
 }
 
+
+/* ================================================= */
+[data-new-window] {
+    display: none;
+}
+
+
+.s123style {
+    color: rgb(40, 40, 40);
+    font-weight: bolder;
+    background-color: orange;
+    padding: 8px 20px;
+    width: 100px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.s123style:active {
+    transform: scale(0.9);
+}
+/* ================================================= */

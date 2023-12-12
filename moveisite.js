@@ -1809,7 +1809,7 @@ async function loadData() {
     });
 
 
-    // $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    // -----------------------------------------------------------------------------------------------------
     // Search Bar Code
 
 
@@ -1853,7 +1853,7 @@ async function loadData() {
             let para = document.createElement("p");
 
             para.innerHTML = def.title;
-            para.style.margin = "3px 0px"
+            para.style.margin = "6px 0px"
             para.style.fontWeight = "bold"
             para.style.fontSize = "12px"
             creaimage.setAttribute("src", def.image);
@@ -1868,28 +1868,12 @@ async function loadData() {
 
     }
 
-
-    // $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-
-
-
-    // ===========================================================================================================
-
-    // // for function
-    // let ironMan = ["actionMov", "adventureMov", "animationMov", "biographyMov", "comedyMov", "crimeMov", "dramaMov", "filmnoirMov", "familyMov", "fantasyMov", "historyMov", "horrorMov", "musicMov", "mysteryMov", "romanceMov", "scifiMov", "thrillerMov", "warMov", "westernMov"];
-    // // for each
-    // let spiderMan = ["openArrAM", "openArrADM", "openArrAniM", "openArrBioM", "openArrComM", "openArrCriM", "openArrDraM", "openArrFilM", "openArrFamM", "openArrFantM", "openArrHisM", "openArrHorM", "openArrMusM", "openArrMysM", "openArrRomM", "openArrSciM", "openArrThrM", "openArrWarM", "openArrWesM"];
-    // // for catch
-    // let batMan = [".allActionMovie", ".allAdventureMovie", ".allAnimationMovie", ".allBiographyMovie", ".allComedyMovie", ".allCrimeMovie", ".allDramaMovie", ".allFilmNoirMovie", ".allFamilyMovie", ".allFantasyMovie", ".allHistoryMovie", ".allHorrorMovie", ".allMusicMovie", ".allMysteryMovie", ".allRomanceMovie", ".allSciFiMovie", ".allThrillerMovie", ".allWarMovie", ".allWesternMovie"];
-
-
     // ===========================================================================================================
 
 
     function actionMov() {
 
         openArrAM.forEach((def) => {
-
             let newCreatDiv = document.createElement("div");
             newCreatDiv.style.margin = "0px 2px";
             newCreatDiv.style.padding = "4px 4px";
@@ -1899,7 +1883,7 @@ async function loadData() {
             let para = document.createElement("p");
 
             para.innerHTML = def.title;
-            para.style.margin = "3px 0px"
+            para.style.margin = "6px 0px"
             para.style.fontWeight = "bold"
             para.style.fontSize = "12px"
             creaimage.setAttribute("src", def.image);
@@ -1924,7 +1908,7 @@ async function loadData() {
             let para = document.createElement("p");
 
             para.innerHTML = def.title;
-            para.style.margin = "3px 0px"
+            para.style.margin = "6px 0px"
             para.style.fontWeight = "bold"
             para.style.fontSize = "12px"
             creaimage.setAttribute("src", def.image);
@@ -1949,7 +1933,7 @@ async function loadData() {
             let para = document.createElement("p");
 
             para.innerHTML = def.title;
-            para.style.margin = "3px 0px"
+            para.style.margin = "6px 0px"
             para.style.fontWeight = "bold"
             para.style.fontSize = "12px"
             creaimage.setAttribute("src", def.image);
@@ -1974,7 +1958,7 @@ async function loadData() {
             let para = document.createElement("p");
 
             para.innerHTML = def.title;
-            para.style.margin = "3px 0px"
+            para.style.margin = "6px 0px"
             para.style.fontWeight = "bold"
             para.style.fontSize = "12px"
             creaimage.setAttribute("src", def.image);
@@ -1999,7 +1983,7 @@ async function loadData() {
             let para = document.createElement("p");
 
             para.innerHTML = def.title;
-            para.style.margin = "3px 0px"
+            para.style.margin = "6px 0px"
             para.style.fontWeight = "bold"
             para.style.fontSize = "12px"
             creaimage.setAttribute("src", def.image);
@@ -2024,7 +2008,7 @@ async function loadData() {
             let para = document.createElement("p");
 
             para.innerHTML = def.title;
-            para.style.margin = "3px 0px"
+            para.style.margin = "6px 0px"
             para.style.fontWeight = "bold"
             para.style.fontSize = "12px"
             creaimage.setAttribute("src", def.image);
@@ -2049,7 +2033,7 @@ async function loadData() {
             let para = document.createElement("p");
 
             para.innerHTML = def.title;
-            para.style.margin = "3px 0px"
+            para.style.margin = "6px 0px"
             para.style.fontWeight = "bold"
             para.style.fontSize = "12px"
             creaimage.setAttribute("src", def.image);
@@ -2074,7 +2058,7 @@ async function loadData() {
             let para = document.createElement("p");
 
             para.innerHTML = def.title;
-            para.style.margin = "3px 0px"
+            para.style.margin = "6px 0px"
             para.style.fontWeight = "bold"
             para.style.fontSize = "12px"
             creaimage.setAttribute("src", def.image);
@@ -2099,7 +2083,7 @@ async function loadData() {
             let para = document.createElement("p");
 
             para.innerHTML = def.title;
-            para.style.margin = "3px 0px"
+            para.style.margin = "6px 0px"
             para.style.fontWeight = "bold"
             para.style.fontSize = "12px"
             creaimage.setAttribute("src", def.image);
@@ -2124,7 +2108,7 @@ async function loadData() {
             let para = document.createElement("p");
 
             para.innerHTML = def.title;
-            para.style.margin = "3px 0px"
+            para.style.margin = "6px 0px"
             para.style.fontWeight = "bold"
             para.style.fontSize = "12px"
             creaimage.setAttribute("src", def.image);
@@ -2149,7 +2133,7 @@ async function loadData() {
             let para = document.createElement("p");
 
             para.innerHTML = def.title;
-            para.style.margin = "3px 0px"
+            para.style.margin = "6px 0px"
             para.style.fontWeight = "bold"
             para.style.fontSize = "12px"
             creaimage.setAttribute("src", def.image);
@@ -2174,7 +2158,7 @@ async function loadData() {
             let para = document.createElement("p");
 
             para.innerHTML = def.title;
-            para.style.margin = "3px 0px"
+            para.style.margin = "6px 0px"
             para.style.fontWeight = "bold"
             para.style.fontSize = "12px"
             creaimage.setAttribute("src", def.image);
@@ -2199,7 +2183,7 @@ async function loadData() {
             let para = document.createElement("p");
 
             para.innerHTML = def.title;
-            para.style.margin = "3px 0px"
+            para.style.margin = "6px 0px"
             para.style.fontWeight = "bold"
             para.style.fontSize = "12px"
             creaimage.setAttribute("src", def.image);
@@ -2224,7 +2208,7 @@ async function loadData() {
             let para = document.createElement("p");
 
             para.innerHTML = def.title;
-            para.style.margin = "3px 0px"
+            para.style.margin = "6px 0px"
             para.style.fontWeight = "bold"
             para.style.fontSize = "12px"
             creaimage.setAttribute("src", def.image);
@@ -2249,7 +2233,7 @@ async function loadData() {
             let para = document.createElement("p");
 
             para.innerHTML = def.title;
-            para.style.margin = "3px 0px"
+            para.style.margin = "6x 0px"
             para.style.fontWeight = "bold"
             para.style.fontSize = "12px"
             creaimage.setAttribute("src", def.image);
@@ -2274,7 +2258,7 @@ async function loadData() {
             let para = document.createElement("p");
 
             para.innerHTML = def.title;
-            para.style.margin = "3px 0px"
+            para.style.margin = "6px 0px"
             para.style.fontWeight = "bold"
             para.style.fontSize = "12px"
             creaimage.setAttribute("src", def.image);
@@ -2299,7 +2283,7 @@ async function loadData() {
             let para = document.createElement("p");
 
             para.innerHTML = def.title;
-            para.style.margin = "3px 0px"
+            para.style.margin = "6px 0px"
             para.style.fontWeight = "bold"
             para.style.fontSize = "12px"
             creaimage.setAttribute("src", def.image);
@@ -2324,7 +2308,7 @@ async function loadData() {
             let para = document.createElement("p");
 
             para.innerHTML = def.title;
-            para.style.margin = "3px 0px"
+            para.style.margin = "6px 0px"
             para.style.fontWeight = "bold"
             para.style.fontSize = "12px"
             creaimage.setAttribute("src", def.image);
@@ -2349,7 +2333,7 @@ async function loadData() {
             let para = document.createElement("p");
 
             para.innerHTML = def.title;
-            para.style.margin = "3px 0px"
+            para.style.margin = "6px 0px"
             para.style.fontWeight = "bold"
             para.style.fontSize = "12px"
             creaimage.setAttribute("src", def.image);
@@ -2370,8 +2354,6 @@ async function loadData() {
 window.onload = loadData;
 
 // -------------------------------------------------------------------------------------------------------------
-
-// let allmov = document.getElementById("allmo",checked);
 
 
 let allmov = document.getElementById("allmo");
@@ -2404,7 +2386,7 @@ allmov.addEventListener("click", () => {
         let para = document.createElement("p");
 
         para.innerHTML = def.title;
-        para.style.margin = "3px 0px"
+        para.style.margin = "6px 0px"
         para.style.fontWeight = "bold"
         para.style.fontSize = "12px"
         creaimage.setAttribute("src", def.image);
@@ -2434,14 +2416,7 @@ document.getElementById("action").addEventListener("click", () => {
     parehead.innerHTML = "Movies";
     parehead.style.fontSize = "20px";
     right.appendChild(parehead);
-    let openArr = [];
-    user.map((a) => {
-        a.genre.map((b) => {
-            if (b == 'Action') {
-                openArr.push(a);
-            };
-        });
-    });
+
 
     openArrAM.forEach((def) => {
         let newCreatDiv = document.createElement("div");
@@ -2454,7 +2429,7 @@ document.getElementById("action").addEventListener("click", () => {
         let para = document.createElement("p");
 
         para.innerHTML = def.title;
-        para.style.margin = "3px 0px"
+        para.style.margin = "6px 0px"
         para.style.fontWeight = "bold"
         para.style.fontSize = "12px"
         creaimage.setAttribute("src", def.image);
@@ -2483,14 +2458,7 @@ document.getElementById("adventure").addEventListener("click", () => {
     parehead.innerHTML = "Movies"
     parehead.style.fontSize = "20px";
     right.appendChild(parehead);
-    let openArr = [];
-    user.map((a) => {
-        a.genre.map((b) => {
-            if (b == 'Adventure') {
-                openArr.push(a);
-            };
-        });
-    });
+
 
     openArrADM.forEach((def) => {
         let newCreatDiv = document.createElement("div");
@@ -2532,14 +2500,7 @@ document.getElementById("animation").addEventListener("click", () => {
     parehead.innerHTML = "Movies"
     parehead.style.fontSize = "20px";
     right.appendChild(parehead);
-    let openArr = [];
-    user.map((a) => {
-        a.genre.map((b) => {
-            if (b == 'Animation') {
-                openArr.push(a);
-            };
-        });
-    });
+
 
     openArrAniM.forEach((def) => {
         let newCreatDiv = document.createElement("div");
@@ -2581,14 +2542,7 @@ document.getElementById("biography").addEventListener("click", () => {
     parehead.innerHTML = "Movies"
     parehead.style.fontSize = "20px";
     right.appendChild(parehead);
-    let openArr = [];
-    user.map((a) => {
-        a.genre.map((b) => {
-            if (b == 'Biography') {
-                openArr.push(a);
-            };
-        });
-    });
+
 
     openArrBioM.forEach((def) => {
         let newCreatDiv = document.createElement("div");
@@ -2630,14 +2584,7 @@ document.getElementById("comedy").addEventListener("click", () => {
     parehead.innerHTML = "Movies"
     parehead.style.fontSize = "20px";
     right.appendChild(parehead);
-    let openArr = [];
-    user.map((a) => {
-        a.genre.map((b) => {
-            if (b == 'Comedy') {
-                openArr.push(a);
-            };
-        });
-    });
+
 
     openArrComM.forEach((def) => {
         let newCreatDiv = document.createElement("div");
@@ -2679,14 +2626,7 @@ document.getElementById("crime").addEventListener("click", () => {
     parehead.innerHTML = "Movies"
     parehead.style.fontSize = "20px";
     right.appendChild(parehead);
-    let openArr = [];
-    user.map((a) => {
-        a.genre.map((b) => {
-            if (b == 'Crime') {
-                openArr.push(a);
-            };
-        });
-    });
+
 
     openArrCriM.forEach((def) => {
         let newCreatDiv = document.createElement("div");
@@ -2728,14 +2668,7 @@ document.getElementById("drama").addEventListener("click", () => {
     parehead.innerHTML = "Movies"
     parehead.style.fontSize = "20px";
     right.appendChild(parehead);
-    let openArr = [];
-    user.map((a) => {
-        a.genre.map((b) => {
-            if (b == 'Drama') {
-                openArr.push(a);
-            };
-        });
-    });
+
 
     openArrDraM.forEach((def) => {
         let newCreatDiv = document.createElement("div");
@@ -2777,14 +2710,7 @@ document.getElementById("filmnoir").addEventListener("click", () => {
     parehead.innerHTML = "Movies"
     parehead.style.fontSize = "20px";
     right.appendChild(parehead);
-    let openArr = [];
-    user.map((a) => {
-        a.genre.map((b) => {
-            if (b == 'Film-Noir') {
-                openArr.push(a);
-            };
-        });
-    });
+
 
     openArrFilM.forEach((def) => {
         let newCreatDiv = document.createElement("div");
@@ -2827,14 +2753,7 @@ document.getElementById("family").addEventListener("click", () => {
     parehead.innerHTML = "Movies"
     parehead.style.fontSize = "20px";
     right.appendChild(parehead);
-    let openArr = [];
-    user.map((a) => {
-        a.genre.map((b) => {
-            if (b == 'Family') {
-                openArr.push(a);
-            };
-        });
-    });
+
 
     openArrFamM.forEach((def) => {
         let newCreatDiv = document.createElement("div");
@@ -3545,15 +3464,15 @@ async function movieSortYear() {
                 exam.style.padding = "10px";
                 right.appendChild(exam);
 
-
-
-                // ==========
+                // =============================================================
      
                 let movimg = document.createElement("img");
                 movimg.setAttribute("src", def.thumbnail)
                 movimg.style.width = "70px"
                 movimg.style.height = "100px";
                 movimg.style.border = "2px solid white"
+                movimg.style.float = "left"
+                movimg.style.margin ="0px 10px 0px 0px"
 
                 let movImd = document.createElement("h6")
                 movImd.innerHTML = "<span class='cccc1'>IMDb Rank:</span> "
@@ -3562,6 +3481,8 @@ async function movieSortYear() {
                 let movmov = document.createElement("h6");
                 movmov.innerHTML = "<span class='cccc1'>Movie:</span> "
                 movmov.innerHTML = movmov.innerHTML + def.title
+
+                let horline = document.createElement("hr");
 
                 let movyear = document.createElement("h6");
                 movyear.innerHTML = "<span class='cccc1' >Year:</span> "
@@ -3575,16 +3496,45 @@ async function movieSortYear() {
                 movDescription.innerHTML = "<span class='cccc1'>Description:</span>  "
                 movDescription.innerHTML = movDescription.innerHTML + def.description
 
-
                 
                 exam.appendChild(movimg);
                 exam.appendChild(movImd);
-                exam.appendChild(movmov);
                 exam.appendChild(movyear);
                 exam.appendChild(movrating);
+                exam.appendChild(horline);
+                exam.appendChild(movmov);
                 exam.appendChild(movDescription);
 
-                // ==========
+// ====================================================================================
+// let newlink12345 = document.createElement("a");
+// let newbutton12345 = document.createElement("button");
+// newbutton12345.onclick="open_in_new_window('html_contents', 'MyTitle', 'location=1,status=1,toolbar=1,scrollbars=1,resizeable=1,width=500,height=250');"
+// newbutton12345.innerHTML="Play";
+// newlink12345.appendChild(newbutton12345);
+// exam.appendChild(newlink12345);
+// newlink12345.style.position="absolute";
+// newlink12345.style.bottom="0px";
+// newlink12345.style.marginBottom="10px";
+
+
+
+let newlink12345 = document.createElement("a");
+newlink12345.addEventListener("click",()=>{
+    open_in_new_window('html_contents', 'MyTitle', 'location=1,status=1,toolbar=1,scrollbars=1,resizeable=1,width=500,height=250');
+});
+newlink12345.innerHTML="Play";
+newlink12345.className = "s123style";
+exam.appendChild(newlink12345);
+newlink12345.style.position="absolute";
+newlink12345.style.bottom="0px";
+newlink12345.style.marginBottom="10px";
+
+
+
+
+// ====================================================================================
+
+
 
             }
 
@@ -3620,7 +3570,6 @@ async function filterMovie() {
     right.appendChild(parehead);
 
 
-
     user.forEach((def) => {
         let newCreatDiv = document.createElement("div");
         newCreatDiv.style.margin = "0px 2px";
@@ -3648,4 +3597,23 @@ async function filterMovie() {
     });
 
 };
+
+
+// ===========================================================================
+function open_in_new_window(id, new_page_title, features) {
+    var new_window;
+
+    if (features !== undefined && features !== '') {
+        new_window = window.open('', '_blank', features);
+    }
+    else {
+        new_window = window.open('', '_blank');
+    }
+
+    var html_contents = document.getElementById(id);
+    if (html_contents !== null) {
+        new_window.document.write('<!doctype html><html><head><title>' + new_page_title + '</title><meta charset="UTF-8" /></head><body>' + html_contents.innerHTML + '</body></html>');
+    }
+}
+// ===========================================================================
 
